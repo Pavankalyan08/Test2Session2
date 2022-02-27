@@ -1,11 +1,10 @@
-
 #include<stdio.h>
 #include<math.h>
 void input(float*x1,float*y1,float*x2,float*y2)
 {
-  printf("enter x1 and y1 value\n");
+  printf("enter the value of x1 and y1 value\n");
   scanf("%f%f",x1,y2);
-  printf("enter x2 and y2 value\n");
+  printf("enter the value of x2 and y2 value\n");
   scanf("%f%f",x2,y2);
 }
 void find_distance(float x1,float y1,float x2,float y2,float *area)
